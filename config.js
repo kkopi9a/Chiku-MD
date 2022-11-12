@@ -7,15 +7,15 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['919006765023']
-global.OwnerNumber = ['919006765023']
-global.ownertag = ['919006765023']
-global.BotName = "chiku"
-global.packname = "chiku-bot"
-global.author = "By: Ayush"
-global.OwnerName = "Ayush"
+global.Owner = ['212645830816']
+global.OwnerNumber = ['212645830816']
+global.ownertag = ['212645830816']
+global.BotName = "⚡ 𝐍𝐨𝐞𝐥 𝐒𝐚𝐦𝐚 ⚡ "
+global.packname = "🎻𝐍𝐨𝐞𝐥🎻"
+global.author = "⚡𝐒𝐚𝐦𝐚⚡"
+global.OwnerName = "🫧𝐝𝐚𝐛𝐢-𝐬𝐚𝐧🫧"
 global.BotSourceCode = "https://github.com/Ayush-pandey-u/Chiku-MD"
-global.SupportGroupLink = "https://chat.whatsapp.com/DYp7FwfL9xsKURihcdT0l8"
+global.SupportGroupLink = "https://instagram.com/m_o_s_71?igshid=YmMyMTA2M2Y="
 global.sessionName = "session"
 
 // Prefix //
