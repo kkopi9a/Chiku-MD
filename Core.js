@@ -3676,24 +3676,6 @@ let buttons = [
 await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: menst})
 }
 break
-		
-		
-case 'couple': case 'طلاق': {
-    if (isBan) return reply(mess.banned)
-    if (isBanChat) return reply(mess.bangc)
-if (!m.isGroup) return replay(`${mess.grouponly}`)
-let member = participants.map(u => u.id)
-let orang = member[Math.floor(Math.random() * member.length)]
-let jodoh = member[Math.floor(Math.random() * member.length)]
-let jawab = `@${orang.split('@')[0]} 「 معلش زوجناكم لأنكم تصلحون لبعض 🤡 」◣ @${jodoh.split('@')[0]}
-「 الي يشوفهم مناسبين لبعض زيي يضغط يب 🤡 」◣`
-let menst = [orang, jodoh]
-let buttons = [
-{ buttonId: '「 يب هم مناسبين لبعض」', buttonText: { displayText: '「 يب هم مناسبين لبعض😂🤡 」◣' }, type: 1 }
-]
-await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: menst})
-}
-break
 
 case 'soulmate': case 'رفيق': {
     if (isBan) return reply(mess.banned)
